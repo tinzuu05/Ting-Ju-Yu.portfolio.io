@@ -26,7 +26,7 @@ $("ul li").on("click", function () {
 
 //text typing effect
 var i = 0;
-var txt = "Hello, I am Ting Ju Yu. Are you looking for a Front End Develper?";
+var txt = "Hello, I am Ting Ju Yu. Are you looking for a Front End Developer?";
 
 function typeWriter() {
   if (i < txt.length) {
