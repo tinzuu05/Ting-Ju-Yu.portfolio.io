@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 750 500" style="enable-background:new 0 0 750 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:none;stroke:#3C4A4C;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#F4EDE6;}
+	.st3{fill:url(#XMLID_2_);}
+</style>
+<pattern  x="100" y="-150" width="62" height="49" patternUnits="userSpaceOnUse" id="New_Pattern_Swatch_5" viewBox="18 -61.2 62 49" style="overflow:visible;">
+	<g>
+		<rect id="XMLID_269_" x="18" y="-61.2" class="st0" width="62" height="49"/>
+		<path id="XMLID_268_" class="st1" d="M97.5-18.7c0,0.2,0,0.4,0,0.5c-1.4-0.4-2.8-0.5-4.3-0.5c-5.3,0-10,2.3-13.2,6
+			c-3.2-3.7-7.9-6-13.2-6c-1.5,0-2.9,0.2-4.3,0.5c0-0.2,0-0.4,0-0.5c0-9.7,7.8-17.5,17.5-17.5C89.7-36.2,97.5-28.4,97.5-18.7z"/>
+		<path id="XMLID_267_" class="st1" d="M66.5-6.5c0,0.2,0,0.4,0,0.5c-1.4-0.3-2.8-0.5-4.3-0.5c-5.3,0-10,2.3-13.2,6
+			c-3.2-3.7-7.9-6-13.2-6c-1.5,0-2.9,0.2-4.3,0.5c0-0.2,0-0.4,0-0.5C31.5-16.1,39.3-24,49-24C58.7-24,66.5-16.1,66.5-6.5z"/>
+		<path id="XMLID_262_" class="st1" d="M35.5-18.7c0,0.2,0,0.4,0,0.5c-1.4-0.4-2.8-0.5-4.3-0.5c-5.3,0-10,2.3-13.2,6
+			c-3.2-3.7-7.9-6-13.2-6c-1.5,0-2.9,0.2-4.3,0.5c0-0.2,0-0.4,0-0.5c0-9.7,7.8-17.5,17.5-17.5C27.7-36.2,35.5-28.4,35.5-18.7z"/>
+		<path id="XMLID_261_" class="st1" d="M97.5-43.2c0,0.2,0,0.4,0,0.5c-1.4-0.3-2.8-0.5-4.3-0.5c-5.3,0-10,2.3-13.2,6
+			c-3.2-3.7-7.9-6-13.2-6c-1.5,0-2.9,0.2-4.3,0.5c0-0.2,0-0.4,0-0.5c0-9.7,7.8-17.5,17.5-17.5C89.7-60.7,97.5-52.9,97.5-43.2z"/>
+		<path id="XMLID_260_" class="st1" d="M66.5-31c0,0.2,0,0.4,0,0.5c-1.4-0.4-2.8-0.5-4.3-0.5c-5.3,0-10,2.3-13.2,6
+			c-3.2-3.7-7.9-6-13.2-6c-1.5,0-2.9,0.2-4.3,0.5c0-0.2,0-0.4,0-0.5c0-9.7,7.8-17.5,17.5-17.5C58.7-48.5,66.5-40.6,66.5-31z"/>
+		<path id="XMLID_259_" class="st1" d="M35.5-43.2c0,0.2,0,0.4,0,0.5c-1.4-0.3-2.8-0.5-4.3-0.5c-5.3,0-10,2.3-13.2,6
+			c-3.2-3.7-7.9-6-13.2-6c-1.5,0-2.9,0.2-4.3,0.5c0-0.2,0-0.4,0-0.5c0-9.7,7.8-17.5,17.5-17.5C27.7-60.7,35.5-52.9,35.5-43.2z"/>
+		<path id="XMLID_257_" class="st1" d="M66.5-55.5c0,0.2,0,0.4,0,0.5c-1.4-0.3-2.8-0.5-4.3-0.5c-5.3,0-10,2.3-13.2,6
+			c-3.2-3.7-7.9-6-13.2-6c-1.5,0-2.9,0.2-4.3,0.5c0-0.2,0-0.4,0-0.5C31.5-65.1,39.3-73,49-73C58.7-73,66.5-65.1,66.5-55.5z"/>
+	</g>
+</pattern>
+<g id="BACKGROUND">
+	<g>
+		<rect id="XMLID_165_" class="st2" width="750" height="500"/>
+		<pattern  id="XMLID_2_" xlink:href="#New_Pattern_Swatch_5" patternTransform="matrix(1 0 0 1 24 3.0601)">
+		</pattern>
+		<rect id="XMLID_460_" class="st3" width="750" height="500"/>
+	</g>
+</g>
+<g id="OBJECTS">
+</g>
+</svg>

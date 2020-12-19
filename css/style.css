@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+html, body {
+  font-family: 'Titillium Web', sans-serif;
+  scroll-behavior: smooth;
+}
+
+html .loader, body .loader {
+  border-top-color: transparent;
+  -webkit-animation: loader 1.2s linear infinite;
+          animation: loader 1.2s linear infinite;
+}
+
+@-webkit-keyframes loader {
+  25% {
+    border-color: #2D5873;
+  }
+  50% {
+    border-color: #7BA696;
+  }
+  75% {
+    border-color: #BF9663;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes loader {
+  25% {
+    border-color: #2D5873;
+  }
+  50% {
+    border-color: #7BA696;
+  }
+  75% {
+    border-color: #BF9663;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+html .anchor, body .anchor {
+  display: block;
+  position: relative;
+  top: -150px;
+  visibility: hidden;
+}
+
+.cover {
+  background-image: url("../images/cover pattern.svg");
+  background-size: 70%;
+  background-position: center;
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    background-size: 100%;
+    background-position-y: 80px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .cover {
+    background-size: 100%;
+    background-position-y: 100px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
