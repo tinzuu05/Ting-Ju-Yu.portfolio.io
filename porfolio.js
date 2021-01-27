@@ -48,29 +48,3 @@ function changeIcons() {
 }
 
 window.addEventListener("scroll", changeIcons);
-
-// auto change photos effect
-const images = ["images/projects/floral.jpg", "images/projects/florist.jpg"];
-
-const images2 = ["images/projects/sealife.jpg", "images/projects/aquarium.jpg"];
-
-const images3 = ["images/projects/travel.jpg", "images/projects/norway.jpg"];
-
-const images4 = ["images/projects/film.jpg", "images/projects/film_cover.jpg"];
-
-var current = 0;
-var then = 0;
-
-setInterval(function () {
-  $(".project_img").attr("src", images[current]);
-  current = current < images.length - 1 ? current + 1 : 0;
-
-  $(".project_img2").attr("src", images2[current]);
-  current = current < images2.length - 1 ? current + 1 : 0;
-
-  $(".project_img3").attr("src", images3[current]);
-  current = current < images3.length - 1 ? current + 1 : 0;
-
-  $(".project_img4").attr("src", images4[then]);
-  then = then < images4.length - 1 ? then + 1 : 0;
-}, 3000); /*1000 = 1 sec*/
