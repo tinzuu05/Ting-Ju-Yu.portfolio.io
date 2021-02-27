@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ting-Ju Yu Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- tailwind -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.6/tailwind.css">
+    <!-- fontawesome -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css' />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="loader-container fixed w-full h-screen bg-black z-30 flex justify-center items-center flex-col">
+        <div class="loader w-20 h-32 rounded-full border-double border-8 border-red-700 mb-5"></div>
+        <p class="text-white text-3x1">LOADING...</p>
+    </div>
+    <nav
+        class="fixed flex flex-wrap justify-center sm:justify-between sm:flex-nowrap p-8 z-20 w-full shadow-lg bg-white">
+        <div id="logo" class="text-2xl font-black mr-4"><a href="#home">TING JU YU</a></div>
+        <div class="menu block sm:hidden">
+            <div class="bars fas fa-bars absolute right-0 mr-6 text-4xl cursor-pointer"></div>
+        </div>
+        <ul class="hidden w-full sm:w-auto mt-10 sm:flex sm:mt-0 text-2xl text-center">
+            <li><a href="#home" class="mr-5 hover:text-red-500">Home</a></li>
+            <li><a href="#about_anchor" class="mr-5 hover:text-red-500">About</a></li>
+            <li><a href="#project_anchor" class="mr-5 hover:text-red-500">Project</a></li>
+            <li><a href="#contact_anchor" class="mr-5 hover:text-red-500">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="icons"
+        class="icons fixed w-full md:w-auto flex my-24 pt-2 justify-center md:flex-col md:top-0 md:left-0 md:my-48 z-10 bg-white md:bg-transparent text-red-700 shadow-lg">
+        <a href="https://www.linkedin.com/in/ting-ju-yu-507b6a139/" target="_blank"><i
+                class="icon fab fa-linkedin-in text-3xl m-2 hover:text-red-500"></i></a>
+        <a href="https://github.com/tinzuu05" target="_blank"><i
+                class="icon fab fa-github text-3xl m-2 hover:text-red-500"></i></a>
+        <a href="https://codepen.io/tinzuu05" target="_blank"><i
+                class="icon fab fa-codepen text-3xl m-2 hover:text-red-500"></i></a>
+        <a href="https://www.freecodecamp.org/tinzuu05" target="_blank"><i
+                class="icon fab fa-free-code-camp text-3xl m-2 hover:text-red-500"></i></a>
+    </div>
+    <section id="home" class="xl:min-h-screen">
+        <div class="cover flex justify-between align-center flex-wrap pt-40 pb-20 pl-10 md:pl-20">
+            <text class="py-20 px-10 w-full lg:w-7/12">
+                <p class="text text-4xl font-bold w-full"></p>
+                <a href="#about_anchor"
+                    class="flex flex-wrap justify-center lg:w-1/2 w-8/12 mr-4 my-5 p-1 text-2xl font-bold bg-white hover:bg-red-400 rounded border-double border-4 border-black">Let's
+                    talk</a>
+                <a href="#project_anchor"
+                    class="flex flex-wrap justify-center lg:w-1/2 w-8/12 mr-4 p-1 text-2xl font-bold bg-blue-400 hover:bg-blue-500 rounded">See
+                    works</a>
+            </text>
+            <div class="banner pt-0 lg:pt-20 w-full lg:w-5/12">
+                <img src="images/banner.png" alt="banner">
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+
+    <div class="container mx-auto">
+        <div id="about_anchor" class="anchor"></div>
+        <section id="about">
+            <h1 class="mt-10 mb-2 text-center text-4xl font-extrabold">ABOUT</h1>
+            <div class="flex items-center justify-center mb-2">
+                <div class="rounded-full h-40 w-40 flex items-center justify-center bg-red-500"><img
+                        src="images/profile.png" alt="profile"
+                        class="rounded-full h-40 w-40 border-double border-4 border-red-500 shadow-lg"></div>
+            </div>
+            <div class="px-20 font-bold" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                <p class="mb-3 font-normal">
+                    Since turning my passion into a career, I have worked in the field of design and collaborated with
+                    many
+                    companies from around the world, including Taiwan, China, Hong Kong, Malaysia, and the United
+                    Kingdom.
+                    Apart from my interests in design, I am an avid programming enthusiast. I was able to receive a
+                    unique 3
+                    months Full Stack training program from the Government of Taiwan, which has allowed me to utilize
+                    programming and web design in my creative projects. In addition, I have created many projects that
+                    have
+                    been listed on to GitHub.</p>
+                <p class="mb-3 font-normal">Altogether, diversity, problem-solving, and creativity are three of my key
+                    principles that I follow on
+                    all of my professional projects.</p>
+            </div>
+            <div class="flex justify-around">
+                <div class="skill_group grid lg:grid-cols-3 grid-cols-1 my-5">
+                    <div class="skill mx-20 mb-10" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="mb-5 text-center font-semibold text-xl">Design
+                            <div class="flex justify-center">
+                                <img src="images/skills/design.svg" alt="design skill">
+                            </div>
+                        </div>
+                        <div class="info">
+                            <i class="fas fa-paint-brush text-red-500 pr-2 fa-fw"></i>Adobe Creative Suite:<br>
+                            <i class="fas fa-paint-brush text-transparent pr-2 fa-fw"></i>Ai/Ps/Pr/Id/Ch/Lr<br>
+                            <i class="far fa-image text-red-500 pr-2 fa-fw"></i>svg<br>
+                            <i class="fab fa-figma text-red-500 pr-2 fa-fw"></i>Figma
+                        </div>
+                    </div>
+                    <div class="skill mx-20 mb-10" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="mb-5 text-center font-semibold text-xl">Front-end
+                            <div class="flex justify-center">
+                                <img src="images/skills/frontend.svg" alt="frontend skill" class="">
+                            </div>
+                        </div>
+                        <div class="info">
+                            <i class="fab fa-html5 text-red-500 pr-2 fa-fw"></i>HTML5<br>
+                            <i class="fab fa-css3-alt text-red-500 pr-2 fa-fw"></i>CSS3/SCSS/SASS<br>
+                            <i class="fab fa-js-square text-red-500 pr-2 fa-fw"></i>JavaScript/jQuery<br>
+                            <i class="fas fa-code-branch text-red-500 pr-2 fa-fw"></i>Ajax<br>
+                            <i class="far fa-window-maximize text-red-500 pr-2 fa-fw"></i>RWD<br>
+                            <i class="fab fa-bootstrap text-red-500 pr-2 fa-fw"></i>Bootstrap/tailwindcss<br>
+                            <i class="fab fa-npm text-red-500 pr-2 fa-fw"></i>npm<br>
+                            <i class="fas fa-folder text-red-500 pr-2 fa-fw"></i>Vue.js<br>
+                            <i class="fab fa-vuejs text-red-500 pr-2 fa-fw"></i>Vue CLI
+                        </div>
+                    </div>
+                    <div class="skill mx-20 mb-10" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="img mb-5 text-center font-semibold text-xl">Back-end
+                            <div class="flex justify-center">
+                                <img src="images/skills/backend.svg" alt="backend skill" class="">
+                            </div>
+                        </div>
+                        <div class="info">
+                            <i class="fab fa-laravel text-red-500 pr-2 fa-fw"></i>Laravel<br>
+                            <i class="fas fa-server text-red-500 pr-2 fa-fw"></i>Firebase<br>
+                            <i class="fas fa-database text-red-500 pr-2 fa-fw"></i>SQL: HeidiSQL
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Project -->
+        <div id="project_anchor" class="anchor"></div>
+        <section id="project">
+            <h1 class="mt-10 mb-5 lg:my-0 lg:mb-5 text-center text-4xl font-extrabold">Project</h1>
+            <div class="flex justify-around">
+                <div class="project_group grid lg:grid-cols-2 grid-cols-1">
+                    <div class="project mx-1 md:mx-12">
+                        <div class="img2 rounded-tl-lg rounded-tr-lg">
+                            <img src="images/projects/florist.jpg" alt="" class="mb-1">
+                            <span class="bg-yellow-500 rounded-xl px-2 text-2xl">Flower School Website</span>
+                            <p>#RWD #Bootstrap #SCSS #carousel #model #maps #form</p>
+                        </div>
+                        <div
+                            class="buttons flex justify-center mb-5 bg-red-100 rounded-bl-lg rounded-br-lg border-double border-8">
+                            <a href="https://tinzuu05.github.io/h.florist.io/"
+                                class="py-5 px-6 md:px-16 hover:bg-red-500 text-xl text-center" target="_blank"><i
+                                    class="fas fa-desktop mx-2"></i>DEMO</a>
+                            <a href="https://github.com/tinzuu05/h.florist.io"
+                                class="py-5 px-6 md:px-16 hover:bg-red-500 text-xl text-center" target="_blank"><i
+                                    class="far fa-comment-dots mx-2"></i></i>INFO</a>
+                        </div>
+                    </div>
+
+                    <div class="project mx-1 md:mx-12">
+                        <div class="img2 rounded-tl-lg rounded-tr-lg">
+                            <img src="images/projects/norway.jpg" alt="" class="mb-1">
+                            <span class="bg-yellow-500 rounded-xl px-2 text-2xl">Norway Travel Website</span>
+                            <p>#RWD #Bootstrap #OnePage #layout</p>
+                        </div>
+                        <div
+                            class="buttons flex justify-center mb-5 bg-red-100 rounded-bl-lg rounded-br-lg border-double border-8">
+                            <a href="https://tinzuu05.github.io/norway_travel.github.io/"
+                                class="py-5 px-6 md:px-16 hover:bg-red-500 text-xl text-center" target="_blank"><i
+                                    class="fas fa-desktop mx-2"></i>DEMO</a>
+                            <a href="https://github.com/tinzuu05/norway_travel.github.io"
+                                class="py-5 px-6 md:px-16 hover:bg-red-500 text-xl text-center" target="_blank"><i
+                                    class="far fa-comment-dots mx-2"></i></i>INFO</a>
+                        </div>
+                    </div>
+
+                    <div class="project mx-1 md:mx-12">
+                        <div class="img2 rounded-tl-lg rounded-tr-lg">
+                            <img src=" images/projects/film.jpg" alt="" class="mb-1">
+                            <span class="bg-yellow-500 rounded-xl px-2 text-2xl">Film Introduction Website</span>
+                            <p>#RWD #SCSS #OnePage #parallax</p>
+                        </div>
+                        <div
+                            class="buttons flex justify-center mb-5 bg-red-100 rounded-bl-lg rounded-br-lg border-double border-8">
+                            <a href="https://tinzuu05.github.io/film_introduction_godfather/"
+                                class="py-5 px-6 md:px-16 hover:bg-red-500 text-xl text-center" target="_blank"><i
+                                    class="fas fa-desktop mx-2"></i>DEMO</a>
+                            <a href="https://github.com/tinzuu05/film_introduction_godfather"
+                                class="py-5 px-6 md:px-16 hover:bg-red-500 text-xl text-center" target="_blank"><i
+                                    class="far fa-comment-dots mx-2"></i></i>INFO</a>
+                        </div>
+                    </div>
+
+                    <div class="project mx-1 md:mx-12">
+                        <div class="img2 rounded-tl-lg rounded-tr-lg">
+                            <img src="images/projects/aquarium.jpg" alt="" class="mb-1">
+                            <span class="bg-yellow-500 rounded-xl px-2 text-2xl">Aquarium Website</span>
+                            <p>#RWD #SCSS #SVG #multilingual #chatbot <span class="text-red-800"> #Laravel6 #SQL</span>
+                            </p>
+                        </div>
+                        <div
+                            class="buttons flex justify-center mb-5 bg-red-100 rounded-bl-lg rounded-br-lg border-double border-8">
+                            <a href="https://tinzuu05.github.io/aquarium_xpark.io/"
+                                class="py-5 px-6 md:px-16 hover:bg-red-500 text-xl text-center" target="_blank"><i
+                                    class="fas fa-desktop mx-2"></i>DEMO</a>
+                            <a href="https://github.com/tinzuu05/aquarium_xpark.io"
+                                class="py-5 px-6 md:px-16 hover:bg-red-500 text-xl text-center" target="_blank"><i
+                                    class="far fa-comment-dots mx-2"></i></i>INFO</a>
+                        </div>
+                    </div>
+
+                    <div class="project mx-1 md:mx-12">
+                        <div class="img2 rounded-tl-lg rounded-tr-lg">
+                            <img src="images/projects/chatroom.JPG" alt="" class="mb-1">
+                            <span class="bg-yellow-500 rounded-xl px-2 text-2xl">Live Chat Room</span>
+                            <p>#Vue3 #VueCli #router <span class="text-red-800">#Firebase #APIkey</span></p>
+                        </div>
+                        <div
+                            class="buttons flex justify-center mb-5 bg-red-100 rounded-bl-lg rounded-br-lg border-double border-8">
+                            <a href="https://vue3-firebase-site1.web.app/"
+                                class="py-5 px-6 md:px-16 hover:bg-red-500 text-xl text-center" target="_blank"><i
+                                    class="fas fa-desktop mx-2"></i>DEMO</a>
+                            <a href="https://github.com/tinzuu05/vue3-live-chat-project"
+                                class="py-5 px-6 md:px-16 hover:bg-red-500 text-xl text-center" target="_blank"><i
+                                    class="far fa-comment-dots mx-2"></i></i>INFO</a>
+                        </div>
+                    </div>
+
+                    <div class="project mx-1 md:mx-12">
+                        <div class="img2 rounded-tl-lg rounded-tr-lg">
+                            <img src="images/projects/musicPlayist.JPG" alt="" class="mb-1">
+                            <span class="bg-yellow-500 rounded-xl px-2 text-2xl">Music Playlist</span>
+                            <p>#Vue3 #VueCli #router <span class="text-red-800">#Firebase #storage #rules</span></p>
+                        </div>
+                        <div
+                            class="buttons flex justify-center mb-5 bg-red-100 rounded-bl-lg rounded-br-lg border-double border-8">
+                            <a href="https://vu3-music-station.web.app/"
+                                class="py-5 px-6 md:px-16 hover:bg-red-500 text-xl text-center" target="_blank"><i
+                                    class="fas fa-desktop mx-2"></i>DEMO</a>
+                            <a href="https://github.com/tinzuu05/vue3-music-station-project"
+                                class="py-5 px-6 md:px-16 hover:bg-red-500 text-xl text-center" target="_blank"><i
+                                    class="far fa-comment-dots mx-2"></i></i>INFO</a>
+                        </div>
+                    </div>
+
+                    <div class="project mx-1 md:mx-12">
+                        <div class="img2 rounded-tl-lg rounded-tr-lg">
+                            <img src="images/projects/filmSearch.JPG" alt="" class="mb-1">
+                            <span class="bg-yellow-500 rounded-xl px-2 text-2xl">Film Search Website & App</span>
+                            <p>#Vue3 #VueCli #SCSS #API #Git</p>
+                        </div>
+                        <div
+                            class="buttons flex justify-center mb-5 bg-red-100 rounded-bl-lg rounded-br-lg border-double border-8">
+                            <a href="https://tinzuu05.github.io/vue3-film-app-and-website/"
+                                class="py-5 px-6 md:px-16 hover:bg-red-500 text-xl text-center" target="_blank"><i
+                                    class="fas fa-desktop mx-2"></i>DEMO</a>
+                            <a href="https://github.com/tinzuu05/vue3-film-app-and-website"
+                                class="py-5 px-6 md:px-16 hover:bg-red-500 text-xl text-center" target="_blank"><i
+                                    class="far fa-comment-dots mx-2"></i></i>INFO</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- contact -->
+    <div id="contact_anchor" class="anchor"></div>
+    <section id="contact" class="bg-gray-300">
+        <h1 class="mt-10 mb-5 text-center text-4xl font-extrabold">Contact</h1>
+        <div class="icons flex justify-center">
+            <a href="https://www.linkedin.com/in/ting-ju-yu-507b6a139/" target="_blank"><i
+                    class="icon fab fa-linkedin-in text-3xl px-5 hover:text-red-500"></i></a>
+            <a href="https://github.com/tinzuu05" target="_blank"><i
+                    class="icon fab fa-github text-3xl px-5 hover:text-red-500"></i></a>
+            <a href="https://codepen.io/tinzuu05" target="_blank"><i
+                    class="icon fab fa-codepen text-3xl px-5 hover:text-red-500"></i></a>
+            <a href="https://www.freecodecamp.org/tinzuu05" target="_blank"><i
+                    class="icon fab fa-free-code-camp text-3xl px-5 hover:text-red-500 active:text-red-900"></i></a>
+        </div>
+        <div class="my-5 text-center">
+            <p>Interested in working with me?</p>
+            <p>Let's build something great together</p>
+        </div>
+        <div>
+            <a href="mailto:tinzuu05@gmail.com"><i
+                    class="my-5 text-center fas fa-envelope w-full text-5xl hover:text-red-700">Hire Me</i></a>
+            <p class="mb-5 text-center">tinzuu05@gmail.com</p>
+        </div>
+        <div class="text-center pb-5">
+            <i class="far fa-copyright"></i>
+            <script>document.write(new Date().getFullYear());</script> TING JU YU
+        </div>
+    </section>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js'></script>
+    <script src="porfolio.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        });
+    </script>
+
+</body>
+
+</html>
