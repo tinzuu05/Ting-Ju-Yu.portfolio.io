@@ -12,18 +12,6 @@ $(this)
     $(this).dequeue();
   });
 
-//menu effect
-$(".menu").on("click", function (e) {
-  $("ul").toggleClass("hidden");
-  $(".bars").toggleClass("fa-bars fa-times");
-  e.preventDefault();
-});
-
-$("ul li").on("click", function () {
-  $("ul").toggleClass("hidden");
-  $(".bars").toggleClass("fa-bars fa-times");
-});
-
 //text typing effect
 var i = 0;
 var txt = "Hello, I am Ting Ju Yu. Are you looking for a Front End Developer?";
@@ -35,6 +23,18 @@ function typeWriter() {
     setTimeout(typeWriter, 50);
   }
 }
+
+//menu effect
+$(".menu").on("click", function (e) {
+  $("ul").toggleClass("hidden");
+  $(".bars").toggleClass("fa-bars fa-times");
+  e.preventDefault();
+});
+
+$("ul li").on("click", function () {
+  $("ul").toggleClass("hidden");
+  $(".bars").toggleClass("fa-bars fa-times");
+});
 
 //scroll effect
 function changeIcons() {
