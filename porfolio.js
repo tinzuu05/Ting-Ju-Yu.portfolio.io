@@ -12,7 +12,7 @@ $(this)
     $(this).dequeue();
   });
 
-//text typing effect
+// text typing effect
 var i = 0;
 var txt = "Hello, I am Ting Ju Yu. Are you looking for a Front End Developer?";
 
